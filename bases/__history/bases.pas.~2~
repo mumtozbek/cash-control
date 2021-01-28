@@ -1,0 +1,24 @@
+unit bases;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  Tbaseform = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  baseform: Tbaseform;
+
+implementation
+
+{$R *.dfm}
+
+end.
